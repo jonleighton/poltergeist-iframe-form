@@ -28,7 +28,7 @@ bundle exec shotgun
 # Poltergeist debug log from rspec run
 
 ~~~
-Toms-MacBook-Pro:poltergeist-iframe-form (master)$ bundle exec rspec --format documentation iframe_form_spec.rb
+$ bundle exec rspec --format documentation iframe_form_spec.rb
 
 IframeForm
   filling in a form field
