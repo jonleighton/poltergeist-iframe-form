@@ -12,6 +12,16 @@ brew install phantomjs
 bundle install
 ~~~
 
+# Run the phantomjs demo
+
+~~~
+bundle exec shutgun
+phantomjs iframe_form.js # in another terminal
+~~~
+
+It should print "omg". Instead it prints "g". It seems that only the
+final letter works.
+
 # Run the rspec tests
 
 ~~~
